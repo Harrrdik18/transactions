@@ -13,7 +13,7 @@ const MONTHS = [
   'July', 'August', 'September', 'October', 'November', 'December'
 ]
 
-const API_BASE_URL = 'http://localhost:5000/api'
+const API_BASE_URL = 'https://transactions-production-1e85.up.railway.app/api'
 
 function App() {
   const [selectedMonth, setSelectedMonth] = useState(3)
